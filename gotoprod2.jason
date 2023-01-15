@@ -1,0 +1,20 @@
+{
+    "production": {
+        "server": {
+            "host": "prod.example.com",
+            "username": "deploy",
+            "password": "secretpassword"
+        },
+        "app": {
+            "name": "myapp",
+            "repository": "https://github.com/myusername/myapp.git",
+            "branch": "main"
+        },
+        "database": {
+            "host": "prod-db.example.com",
+            "name": "myapp",
+            "username": "myapp",
+            "password": "secretdbpassword"
+        }
+    }
+}
